@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cartoon-Eyes" transform="translate(9.000000, 21.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(7.000000, 12.000000)">
+                <circle id="Oval" fill="#060000" cx="33.1" cy="60.2" r="32"></circle>
+                <path d="M62.3,19.3 C61.4,19.3 60.6,19 59.9,18.4 C52.6,11.6 43.1,7.8 33.1,7.8 C23.3,7.8 13.9,11.5 6.6,18.1 C5.2,19.4 3,19.3 1.7,17.9 C0.4,16.5 0.5,14.3 1.9,13 C10.4,5.2 21.5,0.8 33.1,0.8 C44.9,0.8 56.1,5.2 64.7,13.3 C66.1,14.6 66.2,16.8 64.9,18.2 C64.1,18.9 63.2,19.3 62.3,19.3 Z" id="Shape" fill="#060000"></path>
+                <circle id="Oval" fill="#FFFEFF" cx="38.6" cy="46.9" r="13.3"></circle>
+                <circle id="Oval" fill="#FFFEFF" cx="23.8" cy="70.9" r="4.6"></circle>
+                <circle id="Oval" fill="#060000" cx="134.1" cy="60.2" r="32"></circle>
+                <path d="M104.9,19.3 C104,19.3 103,18.9 102.3,18.2 C101,16.8 101,14.6 102.5,13.3 C111.1,5.2 122.3,0.8 134.1,0.8 C145.7,0.8 156.8,5.1 165.3,13 C166.7,14.3 166.8,16.5 165.5,17.9 C164.2,19.3 162,19.4 160.6,18.1 C153.4,11.5 144,7.8 134.1,7.8 C124.1,7.8 114.6,11.6 107.3,18.4 C106.6,19 105.7,19.3 104.9,19.3 Z" id="Shape" fill="#060000"></path>
+                <circle id="Oval" fill="#FFFEFF" cx="128.6" cy="46.9" r="13.3"></circle>
+                <circle id="Oval" fill="#FFFEFF" cx="143.3" cy="70.9" r="4.6"></circle>
+            </g>
+            <path d="M90.6,147.9 C80.3,147.9 70.9,142.7 65.4,134 C64.4,132.4 64.9,130.2 66.5,129.2 C68.1,128.2 70.3,128.7 71.3,130.3 C75.5,136.9 82.7,140.9 90.5,140.9 C98.3,140.9 105.5,137 109.7,130.3 C110.7,128.7 112.9,128.2 114.5,129.2 C116.1,130.2 116.6,132.4 115.6,134 C110.2,142.8 100.8,147.9 90.6,147.9 Z" id="Shape" fill="#060000"></path>
+        </g>
+    </g>
+</svg>
