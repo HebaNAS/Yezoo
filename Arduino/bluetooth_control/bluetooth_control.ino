@@ -44,8 +44,8 @@ void moveForward() {
 
 /* Function to move backward */
 void moveBackward() {
-  digitalWrite(ENA,carSpeed);
-  digitalWrite(ENB,carSpeed);
+  analogWrite(ENA,carSpeed);
+  analogWrite(ENB,carSpeed);
   digitalWrite(IN1,LOW);
   digitalWrite(IN2,HIGH); // Right wheel backward
   digitalWrite(IN3,HIGH);
@@ -55,8 +55,8 @@ void moveBackward() {
 
 /* Function to turn left */
 void turnLeft() {
-  digitalWrite(ENA,carSpeed);
-  digitalWrite(ENB,carSpeed);
+  analogWrite(ENA,carSpeed*2);
+  analogWrite(ENB,carSpeed*2);
   digitalWrite(IN1,HIGH);
   digitalWrite(IN2,LOW); // Right wheel forward
   digitalWrite(IN3,HIGH);
@@ -66,8 +66,8 @@ void turnLeft() {
 
 /* Function to turn right */
 void turnRight() {
-  digitalWrite(ENA,carSpeed);
-  digitalWrite(ENB,carSpeed);
+  analogWrite(ENA,carSpeed*2);
+  analogWrite(ENB,carSpeed*2);
   digitalWrite(IN1,LOW);
   digitalWrite(IN2,HIGH); // Right wheel backward
   digitalWrite(IN3,LOW);
