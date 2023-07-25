@@ -130,3 +130,6 @@ dmypy.json
 
 # MacOS Files
 .DS_Store
+
+# Arduino serial code
+arduino-robust-serial/*

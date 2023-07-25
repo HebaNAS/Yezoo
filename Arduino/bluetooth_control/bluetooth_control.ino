@@ -13,8 +13,6 @@ Servo carServo;
 #define ECHO A4  
 #define TRIG A5
 
-int rightDistance = 0;
-int leftDistance = 0;
 int aheadDistance = 0;
 int pos = 0;
 
@@ -126,6 +124,6 @@ void loop() {
   if(aheadDistance <= 25)
   {
     stop();
-    Serial.println("Object Detected..Stopping!");
+    //Serial.println("Object Detected..Stopping!");
   }
 }
