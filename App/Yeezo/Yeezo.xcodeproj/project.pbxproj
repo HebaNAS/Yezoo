@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37C4F533C3489BB8D7C7D38A /* Pods_Yeezo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926B5506BB35568C558DC5B2 /* Pods_Yeezo.framework */; };
 		8349DF102A6EAC9500FEF8BA /* YeezoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8349DF0F2A6EAC9500FEF8BA /* YeezoApp.swift */; };
 		8349DF142A6EAC9600FEF8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8349DF132A6EAC9600FEF8BA /* Assets.xcassets */; };
 		8349DF172A6EAC9600FEF8BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8349DF162A6EAC9600FEF8BA /* Preview Assets.xcassets */; };
 		8349DF1F2A6EAE8100FEF8BA /* SwiftUIJoystick in Frameworks */ = {isa = PBXBuildFile; productRef = 8349DF1E2A6EAE8100FEF8BA /* SwiftUIJoystick */; };
 		8349DF232A6EB38200FEF8BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8349DF222A6EB38200FEF8BA /* ContentView.swift */; };
-		8349DF272A6EFDE800FEF8BA /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8349DF262A6EFDE800FEF8BA /* BluetoothManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FB64CF2CBC64B7ADE353FD0 /* Pods-Yeezo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yeezo.release.xcconfig"; path = "Target Support Files/Pods-Yeezo/Pods-Yeezo.release.xcconfig"; sourceTree = "<group>"; };
 		8349DF0C2A6EAC9500FEF8BA /* Yeezo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yeezo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8349DF0F2A6EAC9500FEF8BA /* YeezoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeezoApp.swift; sourceTree = "<group>"; };
 		8349DF132A6EAC9600FEF8BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8349DF162A6EAC9600FEF8BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8349DF222A6EB38200FEF8BA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8349DF262A6EFDE800FEF8BA /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		926B5506BB35568C558DC5B2 /* Pods_Yeezo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yeezo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFD486DA1D4F75BC60F8394 /* Pods-Yeezo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yeezo.debug.xcconfig"; path = "Target Support Files/Pods-Yeezo/Pods-Yeezo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +32,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				8349DF1F2A6EAE8100FEF8BA /* SwiftUIJoystick in Frameworks */,
+				37C4F533C3489BB8D7C7D38A /* Pods_Yeezo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FF7BA1EB1A9F79D57C5DD56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				926B5506BB35568C558DC5B2 /* Pods_Yeezo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8349DF032A6EAC9500FEF8BA = {
 			isa = PBXGroup;
 			children = (
 				8349DF0E2A6EAC9500FEF8BA /* Yeezo */,
 				8349DF0D2A6EAC9500FEF8BA /* Products */,
+				B8492E3E90C9584B6468DC59 /* Pods */,
+				2FF7BA1EB1A9F79D57C5DD56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +70,6 @@
 			children = (
 				8349DF222A6EB38200FEF8BA /* ContentView.swift */,
 				8349DF0F2A6EAC9500FEF8BA /* YeezoApp.swift */,
-				8349DF262A6EFDE800FEF8BA /* BluetoothManager.swift */,
 				8349DF132A6EAC9600FEF8BA /* Assets.xcassets */,
 				8349DF152A6EAC9600FEF8BA /* Preview Content */,
 			);
@@ -72,6 +84,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B8492E3E90C9584B6468DC59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBFD486DA1D4F75BC60F8394 /* Pods-Yeezo.debug.xcconfig */,
+				4FB64CF2CBC64B7ADE353FD0 /* Pods-Yeezo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,9 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8349DF1A2A6EAC9600FEF8BA /* Build configuration list for PBXNativeTarget "Yeezo" */;
 			buildPhases = (
+				91A14A574F229F223D855FA8 /* [CP] Check Pods Manifest.lock */,
 				8349DF082A6EAC9500FEF8BA /* Sources */,
 				8349DF092A6EAC9500FEF8BA /* Frameworks */,
 				8349DF0A2A6EAC9500FEF8BA /* Resources */,
+				4C5F14CFEE36E6741A7FA91E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,13 +166,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C5F14CFEE36E6741A7FA91E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yeezo/Pods-Yeezo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yeezo/Pods-Yeezo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yeezo/Pods-Yeezo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A14A574F229F223D855FA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yeezo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8349DF082A6EAC9500FEF8BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8349DF232A6EB38200FEF8BA /* ContentView.swift in Sources */,
-				8349DF272A6EFDE800FEF8BA /* BluetoothManager.swift in Sources */,
 				8349DF102A6EAC9500FEF8BA /* YeezoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +337,7 @@
 		};
 		8349DF1B2A6EAC9600FEF8BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFD486DA1D4F75BC60F8394 /* Pods-Yeezo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +369,7 @@
 		};
 		8349DF1C2A6EAC9600FEF8BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB64CF2CBC64B7ADE353FD0 /* Pods-Yeezo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

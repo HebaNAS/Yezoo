@@ -1,0 +1,6 @@
+framework module Pods_Yeezo {
+  umbrella header "Pods-Yeezo-umbrella.h"
+
+  export *
+  module * { export * }
+}
