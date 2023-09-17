@@ -1,7 +1,7 @@
 # Yezoo
 ![WIP](https://img.shields.io/badge/work_in-progress-blue)
 
-Autonomous Car and Pet Robot. Joint project with [Yazan Farrag](https://github.com/YazaKnight).
+Autonomous Car and Pet Robot. Fun side project and joint work with [Yazan Farrag](https://github.com/YazaKnight).
 
 This work is unfinished, it is currently under development.
 
