@@ -1,5 +1,7 @@
 # Yezoo
-Autonomous Car and Pet Robot
+Autonomous Car and Pet Robot. Joint project with [Yazan Farrag](https://github.com/YazaKnight)
 
 ## Documentation of the steps here
-To be Updated...
+Wait for a blog series by Yazan Farrag.
+Readme to be Updated...
+
